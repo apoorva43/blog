@@ -3,8 +3,10 @@ title: "Using AI to Detect and Monitor Neurological and Mental Health Conditions
 author: "Apoorva Srivastava"
 date: "2026-01-14"
 categories: [healthcare, AI, analysis]
-image: "image.jpg"
+image: "image.jpeg"
 ---
+
+## Using AI to Detect and Monitor Neurological and Mental Health Conditional Early
 
 This is a blog post outlining how AI can be used to detect and monitor neurological and mental health conditions much earlier than waiting on a formal diagnosis from healthcare professionals. 
 
