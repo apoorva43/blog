@@ -6,4 +6,6 @@ categories: [healthcare, AI, analysis]
 image: "image.jpg"
 ---
 
-This is a post with executable code.
+This is a blog post outlining how AI can be used to detect and monitor neurological and mental health conditions much earlier than waiting on a formal diagnosis from healthcare professionals. 
+
+
