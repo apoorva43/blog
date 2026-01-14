@@ -1,8 +1,8 @@
 ---
-title: "Post With Code"
-author: "Harlow Malloc"
+title: "Using AI to Detect and Monitor Neurological and Mental Health Conditions Early"
+author: "Apoorva Srivastava"
 date: "2026-01-14"
-categories: [news, code, analysis]
+categories: [healthcare, AI, analysis]
 image: "image.jpg"
 ---
 
