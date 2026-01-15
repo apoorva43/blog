@@ -14,3 +14,29 @@ Healthcare is often reactive: treatment begins only after the symptoms appear. F
 
 ![Brain with AI](image.jpeg)
 
+#### Sources of Data
+
+AI models rely on large amounts of data collected from multiple sources. Eletrconic Health records (EHRs) provide information about diagnostics, medications and clinical visits. Medical images such as MRIs or X-rays reveeal structural changes in the brain. Clinical notes and therapy records, on the other hand, contain rich, written observations about behavior and cognitive function. Patient-generated data from wearables or smartphones captures activity, sleep and other daily patterns that may indicate early signs of decline. Together, these datasets allow AI to detect subtle signals that humans may overlook.
+
+#### Case Studies
+
+Consider medical imaging: AI algorithms trained on thousands of brain scans can identify early biomarkers of Alzheimer's years before cognitive symptoms become apparent. Research has demonstrated that deep learning models analyzing MRI images of the hippocampus achieve 88-95% accuracy in detecting Alzheimer's disease and mild cognitive impairment. 
+
+In mental health applications, natural language processing (NLP) tools can analyze clinical notes to flag patients at risk of depression, anxiety or suicidal ideation. Recent studies show that AI successfully identified current suicidal ideations from clinical notes and analysis of psychotherapy notes added predictive value beyong existing suicide risk models. 
+
+Time-series data from wearables can further track changes over weeks or months, providing continuous insight into a patient's condition. Table 1 summarizes the performance of deep learning across different applications.
+
+| Condition | AI-Assisted Approach | Source |
+|-----------|----------------------|--------|
+| Alzheimer's (MRI) | 88-95% accuracy in detecting AD and MCI | Liu et al., 2020 |
+| Suicide Risk (Clinical Notes) | Successfully identified current suicidal ideation | Cusick et al., 2021 |
+| Suicide Risk (Psychotherapy Notes) | Added predictive value (AUC = 0.58) beyond existing models | Levis et al., 2020 |
+
+: AI performance metrics across neurological and mental health applications {#tbl-performance}
+
+These approaches illustrate how AI can transform patient care from reactive to proactive, with measurable improvements in detection accuracy and timing.
+
+#### Challenges and Ethical Considerations
+
+
+
