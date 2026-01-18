@@ -1,5 +1,5 @@
 ---
-title: "Using AI to Detect and Monitor Neurological and Mental Health Conditions Early"
+title: "From Reactive to Proactive: How AI is Revolutionizing Neurological and Mental Health Diagnosis"
 author: "Apoorva Srivastava"
 date: "2026-01-14"
 categories: [healthcare, AI, analysis]
