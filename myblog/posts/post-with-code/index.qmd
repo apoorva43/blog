@@ -18,7 +18,7 @@ AI models are only as good as the data they learn from, and modern healthcare ge
 
 Medical imaging provides another crucial data stream. MRI and CT scans capture structural changes in the brain with millimeter precision. For Alzheimer's research, these images reveal shrinkage in the hippocampus, the brain's memory center, often years before cognitive symptoms appear. PET scans can detect the accumulation of beta-amyloid plaques, a hallmark of Alzheimer's pathology.
 
-Perhaps most intriguing is the wealth of unstructured data hidden in clinical notes and therapy transcripts. When a psychiatrist writes "patient reports difficulty concentrating and anhedonia", they are documenting symptoms that, when combined with hundreds of similar notes, reveal patterns AI can learn to recognize. Natural language processing (NLP) can extract these subtle linguistic markers that might indicate worsening depression of emeerging suicidal ideation.
+Perhaps most intriguing is the wealth of unstructured data hidden in clinical notes and therapy transcripts. When a psychiatrist writes "patient reports difficulty concentrating and anhedonia", they are documenting symptoms that, when combined with hundreds of similar notes, reveal patterns AI can learn to recognize. Natural language processing (NLP) can extract these subtle linguistic markers that might indicate worsening depression or emerging suicidal ideation.
 
 Then there is the continuous data stream from our daily lives. Smartwatches track heart rate variability, sleep patterns and physical activity. Changes in these metrics often signal emerging problems. Disrupted sleep and reduced activity might indicate depression, while changes in gait patterns detected by smartphone accelerometers can flag early Parkinson's disease. One study found that people with depression took longer, more irregular steps: a pattern invisible to casual observation but clear in the data.
 
@@ -60,12 +60,11 @@ Despite these promising results, deploying AI in healthcare comes with significa
 
 **Bias and Health Equity:** AI models learn from historical data, which often reflects existing healthcare disparities. If training data predominantly includes patients from certain demographic groups, the model may perform poorly for others. A model trained mostly on MRI scans from white patients might miss early Alzheimer's signs in black or hispanic patients, potentially widening existing health inequities rather than closing them.
 
-**The Black Box Problem:** Deep learning models are notoriously difficult to interpret. When an AI flags a patient as high-risk for suicide, clinicians needs to understand why. Is it specific symptoms mentioned in notes? A pattern of missed appointments? Without interpretability, clinicians may struggle to trust and act on AI recommendations.
+**The Black Box Problem:** Deep learning models are notoriously difficult to interpret. When an AI flags a patient as high-risk for suicide, clinicians need to understand why. Is it specific symptoms mentioned in notes? A pattern of missed appointments? Without interpretability, clinicians may struggle to trust and act on AI recommendations.
 
-**False Positives and Patient Anxiety:** High sensitivity means catching more cases early, but it also means false alarms. Imaging being told you're at high risk for Alzheimer's based on an AI analysis, only to find out years later it was wrong. The psychological burden of false positives can itself harm mental health and erode trust in such systems.
+**False Positives and Patient Anxiety:** High sensitivity means catching more cases early, but it also means false alarms. Imagine being told you're at high risk for Alzheimer's based on an AI analysis, only to find out years later it was wrong. The psychological burden of false positives can itself harm mental health and erode trust in such systems.
 
-**Privacy and Data Security:** These models
-require access to our most sensitive information - mental health records, brain scans, daily movement patterns. Robust privacy protections aren't optional, they are essential. We must ensure this data cannot be breached, misused or accessed in unauthorized ways.
+**Privacy and Data Security:** These models require access to our most sensitive information - mental health records, brain scans, daily movement patterns. Robust privacy protections aren't optional, they are essential. We must ensure this data cannot be breached, misused or accessed in unauthorized ways.
 
 ## Future Of Proactive Healthcare
 
@@ -77,7 +76,7 @@ Perhaps most exciting is the potential to democratize mental health screening. T
 
 The integration of AI into neurological and mental health care represents a fundamental shift in how we approach these conditions. Rather than waiting for diseases to announce themselves through symptoms, we can detect them in their earliest stages when interventions are most effective. Rather than solely relying on periodic clinical visits, we can continuously monitor patients, catching concerning changes in real time.
 
-But AI alone is not the answer. It's a powerful and promising tool, but it's not infallible. It might be developed responsibly, deployed equitably and used in partnership with clinical expertise. When we get this right, we have the opportunity to transform millions of lives.
+But AI alone is not the answer. It's a powerful and promising tool, but it's not infallible. It must be developed responsibly, deployed equitably and used in partnership with clinical expertise. When we get this right, we have the opportunity to transform millions of lives.
 
 The question is not whether AI will change neurological and mental health care. It's whether we'll implement these tools in ways that help everyone, not just those with access to cutting-edge medical centers. The technology is here, what we need is a way to make it fair, interpretable and truly beneficial for all.
 
