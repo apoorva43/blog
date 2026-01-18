@@ -12,7 +12,7 @@ What if we did not have to wait? What if subtle patterns in our daily activities
 
 ![](image.jpeg){width="200%" fig-align="center"}
 
-#### **Data in Healthcare**
+## Data in Healthcare
 
 AI models are only as good as the data they learn from, and modern healthcare generates data at an unprecedented scale. Electronic Health Records (EHRs) compile years of patient history including diagnoses, medications, lab results and clinical visits. A single patient might have hundreds of data points spanning decades, creating a very rich source of health information.
 
@@ -22,21 +22,21 @@ Perhaps most intriguing is the wealth of unstructured data hidden in clinical no
 
 Then there is the continuous data stream from our daily lives. Smartwatches track heart rate variability, sleep patterns and physical activity. Changes in these metrics often signal emerging problems. Disrupted sleep and reduced activity might indicate depression, while changes in gait patterns detected by smartphone accelerometers can flag early Parkinson's disease. One study found that people with depression took longer, more irregular steps: a pattern invisible to casual observation but clear in the data.
 
-#### **Case Studies**
+## Case Studies
 
-##### **Detecting Alzheimer's Before Memory Fades**
+### Detecting Alzheimer's Before Memory Fades
 
 Researchers at UC San Francisco trained deep learning models on over 10,000 brain MRI scans to identify Alzheimer's disease. The algorithm learned to recognize subtle patterns of brain atrophy that even experienced radiologists might miss. The results were remarkable: the AI achieved 88-95% accuracy in detecting Alzheimer's disease and mild cognitive impairment, often identifying cases 2-3 years before formal clinical diagnosis.
 
 The model examines not just the hippocampus but the entire brain, looking for patterns across multiple regions. It identifies cortical thinning, ventricular enlargement and white matter changes that collectively indicate disease progression. Most importantly, it can track these changes over time, providing clinicians with trajectory predictions that inform treatment decisions.
 
-##### **Preventing Suicide Through Language Analysis**
+### Preventing Suicide Through Language Analysis
 
 A team at Vanderbilt University developed an NLP system to analyze clinical notes for suicide risk. The model processes thousands of notes, learning to recognize concerning patterns in language and documented behaviors. When a note mentions "feel hopeless", "giving away possessions" or "has a plan", the system flags the patient for immediate clinical review.
 
 In validation studies, the AI successfully identified current suicidal ideation with high accuracy. When researchers incorporated psychotherapy session notes, which contain even richer behavioral observations, the model's predictive power increased further, achieving an AUC of 0.58 beyond existing risk assessment tools. While this might seem modest, in suicide preventions, any improvement in early detection saves lives.
 
-##### **Monitoring Depression Through Digital Phenotyping**
+### Monitoring Depression Through Digital Phenotyping
 
 Researchers are using smartphone data to create "digital phenotypes" of mental health conditions. By analyzing GPS data (how much someone moves around), screen time patterns, communication frequency and even typing speed, AI models can detect depressive episodes before patients recognize them themselves.
 
@@ -54,7 +54,7 @@ Table 1 summarizes the performance of AI models across diverse applications, fro
 
 These approaches illustrate how AI can transform patient care from reactive to proactive, with measurable improvements in detection accuracy and timing.
 
-#### **Challenges**
+## Challenges
 
 Despite these promising results, deploying AI in healthcare comes with significant challenges that we cannot ignore.
 
@@ -67,13 +67,13 @@ Despite these promising results, deploying AI in healthcare comes with significa
 **Privacy and Data Security:** These models
 require access to our most sensitive information - mental health records, brain scans, daily movement patterns. Robust privacy protections aren't optional, they are essential. We must ensure this data cannot be breached, misused or accessed in unauthorized ways.
 
-#### **Future Of Proactive Healthcare**
+## Future Of Proactive Healthcare
 
 The path forward is clear: AI will increasingly enable prediction and prevention rather than just diagnosis and treatment. Emerging technologies like federated learning allow models to train on distributed datasets without centralizing sensitive patient data, addressing privacy concerns while improving model performance. Multimodal AI that combines imaging, genetic, clinical and behavioral data promises even earlier and more accurate detection.
 
 Perhaps most exciting is the potential to democratize mental health screening. Today, access to psychiatrists and therapists is limited, especially in rural areas. AI-powered screening tools accessible via smartphone could identify at-risk individuals who might never otherwise receive help, connecting them with resources before the crisis hits.
 
-#### **Conclusion**
+## Conclusion
 
 The integration of AI into neurological and mental health care represents a fundamental shift in how we approach these conditions. Rather than waiting for diseases to announce themselves through symptoms, we can detect them in their earliest stages when interventions are most effective. Rather than solely relying on periodic clinical visits, we can continuously monitor patients, catching concerning changes in real time.
 
@@ -81,7 +81,7 @@ But AI alone is not the answer. It's a powerful and promising tool, but it's not
 
 The question is not whether AI will change neurological and mental health care. It's whether we'll implement these tools in ways that help everyone, not just those with access to cutting-edge medical centers. The technology is here, what we need is a way to make it fair, interpretable and truly beneficial for all.
 
-#### **References**
+## References
 
 Cusick, M., Adekkanattu, P., Campion, T. R., Sholle, E. T., Myers, A., Banerjee, S., Pathak, J., & Moon, S. (2021). Using weak supervision and deep learning to classify clinical notes for identification of current suicidal ideation. *Journal of Psychiatric Research*, 136, 95-102. [https://doi.org/10.1016/j.jpsychires.2021.01.052](https://doi.org/10.1016/j.jpsychires.2021.01.052)
 
